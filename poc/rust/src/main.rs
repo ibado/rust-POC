@@ -20,6 +20,6 @@ fn main() -> Result<(), Box<dyn Error>> {
         count += count_occurrences(&line?, &word);
     }
 
-    println!("Word was found {} times", word, count);
+    println!("Word was found {} times", count);
     Ok(())
 }
