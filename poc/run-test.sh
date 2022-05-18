@@ -10,6 +10,11 @@ echo "Running Kotlin..."
 time kotlin Words ../test.txt si
 echo ""
 
+echo "Running Go..."
+cd ../go
+time go run words.go ../test.txt si
+echo ""
+
 echo "Running C..."
 cd ../c
 time ./main ../test.txt si
