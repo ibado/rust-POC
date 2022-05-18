@@ -1,6 +1,6 @@
 // borrowed from: https://github.com/rust-lang/rustlings
 
-// Make me compile without changing line 13!
+// Make me compile without changing line 10!
 fn main() {
     let vec0 = Vec::new();
 
