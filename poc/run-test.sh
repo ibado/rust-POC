@@ -6,7 +6,13 @@ cd ../c && make &> /dev/null
 cd ../kotlin && kotlinc Words.kt
 echo ""
 
+echo "Running Javascript..."
+cd ../nodejs
+time node words.js ../test.txt si
+echo ""
+
 echo "Running Kotlin..."
+cd ../kotlin
 time kotlin Words ../test.txt si
 echo ""
 
